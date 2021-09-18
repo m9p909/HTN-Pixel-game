@@ -1,0 +1,16 @@
+{
+  "name": "pixel-game",
+  "version": "0.0.1",
+  "description": "A fun pixel game where you make art with friends",
+  "main": "index.js",
+  "author": "Jack Clarke <jackfulcher09@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  }
+}
